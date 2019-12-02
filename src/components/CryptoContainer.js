@@ -12,7 +12,7 @@ class CryptoContainer extends Component {
   render() {
     return(
       <View>
-        <Text>Test</Text>
+        <Text>Container</Text>
       </View>
     );
   }

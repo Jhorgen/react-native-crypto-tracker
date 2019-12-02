@@ -3,7 +3,7 @@ import { apiBaseURL } from './../Utils/Constants.js';
 import { FETCHING_COIN_DATA, FETCHING_COIN_DATA_FAIL, FETCHING_COIN_DATA_SUCCESS } from './../Utils/ActionTypes.js';
 
 export default function FetchCoinData() {
-    return dispatch = () => {
+    return dispatch => {
       dispatch({ type: FETCHING_COIN_DATA })
 
       return axios.get(`${apiBaseURL}/v1/ticker/?limit=10`)
